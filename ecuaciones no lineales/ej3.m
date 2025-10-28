@@ -16,7 +16,7 @@ plot(raices, f(raices), 'ks');
 raiz_newton = newton(f, fx, 1.5);
 raiz_secante = secante(f, 1, 2);
 raiz_biseccion = biseccion(f, 1, 2);
-printf("El metodo de newton en x⁰=1.5 devuelve %d\n", raiz_newton);
-printf("El metodo de la secante en x⁰=1 y x1=2 devuelve %d\n", raiz_secante);
-printf("El metodo de biseccion en [1, 2] devuelve %d\n", raiz_biseccion);
+printf('El metodo de newton en x⁰=1.5 devuelve %d\n', raiz_newton);
+printf('El metodo de la secante en x⁰=1 y x1=2 devuelve %d\n', raiz_secante);
+printf('El metodo de biseccion en [1, 2] devuelve %d\n', raiz_biseccion);
 
